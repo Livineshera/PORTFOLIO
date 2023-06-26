@@ -1,0 +1,140 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    padding: 2rem;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: #f3ca20;
+    height: 2rem;
+}
+.center{
+    display: flex;
+   align-items: center;  
+   padding: 9rem;
+   height: 100%;
+   background-color: rgb(0, 0, 0);
+   color: rgb(253, 252, 252);
+}
+.about{
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    height: 100%;
+    background-color: rgb(8, 8, 8);
+    color: rgb(250, 248, 248);
+    gap: 5rem;
+}
+.last{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+}
+:root {
+    --success: #00b894;
+    --progress: #e17055;
+  }
+  
+.progressbar-wrapper {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 20%;
+    height: 10%;
+  }
+  
+.progressbar {
+    background-color: var(--progress);
+    color: rgb(247, 247, 247);
+    padding: 1rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  
+.progressbar[title="downloading"] {
+     background-color: var(--progress);
+  }
+  
+.progressbar[title="downloaded"] {
+     background-color: var(--success);
+  }
+    
+.html {
+    width: 50%;
+  }
+  
+.css {
+    width: 20%;
+  }
+.javascript{
+    width: 20%;
+  }
+.boostrap{
+    width: 20%;
+  }
+.container{
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+    background-color:rgb(0, 0, 0) ;
+    justify-content: center;
+    padding: 5rem;
+    color: white;
+}
+h1{
+    color: #f3ca20;
+}
+form{
+    align-items: center;
+    padding: 10rem;
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+}
+.contact{
+    height: 100%;
+}
+.item{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin: 3rem;
+   padding: 2rem;
+}
+footer{
+    background-color: #f3ca20;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.nom{
+    font-family: Butter Cup;
+    font-size: 2rem;
+}
+.logo{
+    font-family:Butter Cup ;
+    font-size:2rem;
+}
+@media screen{min-width:750px;}{
+    .body{
+        max-width:1200px ;
+        margin: 0 auto;
+        padding: 2rem;
+    }  
+}
